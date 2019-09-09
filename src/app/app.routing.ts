@@ -13,6 +13,9 @@ export const routes: Routes=[{
         {
             path: '',
             loadChildren:'./pages/dashboard/dashboard.module#DashboardModule'
+        },{
+            path: '',
+            loadChildren:'./pages/administration/administration.module#AdministrationModule'
         }
     ]
 
